@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+.model-card {
+  background-color: #f7f7f7;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 1em;
+  width: 80%;
+}
+
+.model-card h2 {
+  margin-top: 0;
+}
+
+.model-card p {
+  margin-bottom: 1em;
+}
+
+.model-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.model-card li {
+  margin-bottom: 0.5em;
+}
+
+.model-card li:before {
+  content: "\2022";
+  margin-right: 0.5em;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  clear: both;
+}
